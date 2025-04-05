@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Avatar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="574.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="322.0" fitWidth="589.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/Screenshots/Screenshot%202025-04-05%20155257.png" />
+         </image>
+      </ImageView>
+      <HBox prefHeight="32.0" prefWidth="516.0">
+         <children>
+            <Label prefHeight="30.0" prefWidth="523.0" text="[#WSWF] 〈WORLD of K-POP〉 AG SQUAD(에이지 스쿼드)">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="49.0" prefWidth="579.0">
+         <children>
+            <Group>
+               <children>
+                  <Avatar layoutX="-4.0" layoutY="-18.0">
+                     <image>
+                        <Image url="@../../Downloads/OIP.jpg" />
+                     </image>
+                  </Avatar>
+                  <Text layoutX="32.0" layoutY="4.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The CHOOM" wrappingWidth="141.77474212646484" />
+               </children>
+            </Group>
+            <Button mnemonicParsing="false" style="-fx-background-color: RED;" text="SUBSCRIBE" />
+            <Button mnemonicParsing="false" style="-fx-background-color: BLUE;" text="LIKE">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: BLUE;" text="DISLIKE">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="SHARE">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button minWidth="42.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="54.0" text="...">
+               <font>
+                  <Font name="System Bold" size="47.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Label text="10BILLION SUBSCRIBER" />
+   </children>
+</VBox>
